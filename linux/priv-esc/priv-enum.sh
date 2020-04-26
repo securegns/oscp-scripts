@@ -4,4 +4,5 @@ echo "----------SGID----------"
 
 echo "----------Cron Jobs----------"
 
-echo "----------/etc/sudoers----------"
+echo "----------Users----------"
+cat /etc/passwd | cut -d ":" -f 1
